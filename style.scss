@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF69B4;
+    color: white;
+    height: 15vh;
+}
+.sessaoHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    padding-right: 40%;
+  
+    img{
+       
+        height: 14vh
+    }
+    
+    h1{
+        font-weight: 300;
+    }
+}
+nav{
+    width: 30%;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+  
+ li{
+    font-size: 1.5rem;
+    font-weight: 300;  
+ }
+ 
+ a{
+    color: white;;
+ }
+}
+
+.MaosOutubroRosa{
+    background-color: #FFD9EC;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img{
+    height: 38vh;
+    }
+    p{  
+        font-weight: 500;
+        width: 30%;
+    }
+}
+.corridaOutubroRosa{
+    background-color: #FF69B4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+
+
+    img{
+        height: 28vh;
+    }
+    p{
+        width: 30%;
+    }
+
+}
+
+.cuidadosEDicas{
+    background-color: #FFD9EC;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 40vh;
+   
+    img{
+        padding: 0 16px;
+        height: 35vh;
+    }
+}
+.sessaoFooter{
+    background-color: #FF69B4;
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 300;
+    }
+    img{
+        padding: 0 16px;
+        height: 64px;
+    }
+}
+
